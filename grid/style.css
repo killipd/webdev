@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    grid-column: 3;
+    color: #1357BD;
+}
+
+h2 {
+    text-align: center;
+    grid-column: 3;
+    color: #1974D1
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+    background-color: #DBF3FA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    grid-column: 3;
+    
+}
+
+p {
+    grid-column: 3;
+    color: #0077B6
+}
